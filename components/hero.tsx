@@ -1,5 +1,5 @@
-import Link from "next/link"
 import Image from "next/image"
+import Link from "next/link"
 
 export default function Hero() {
   return (
@@ -30,7 +30,7 @@ export default function Hero() {
         <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
           <div className="relative mx-auto w-[22.875rem] max-w-full">
             <Image
-              src="/placeholder.svg?height=600&width=500"
+              src="/placeholder.jpg?height=600&width=500"
               alt="Queen Kimambo, CPA"
               width={500}
               height={600}

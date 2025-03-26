@@ -1,5 +1,5 @@
-import Image from "next/image"
 import { CheckCircle } from "lucide-react"
+import Image from "next/image"
 
 const features = [
   "Certified Public Accountant (CPA)",
@@ -43,7 +43,7 @@ export default function About() {
           </div>
           <div className="relative">
             <Image
-              src="/placeholder.svg?height=600&width=800"
+              src="/placeholder.jpg?height=600&width=800"
               alt="Professional accountant portrait"
               className="w-full rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
               width={800}
