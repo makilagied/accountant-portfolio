@@ -3,6 +3,7 @@
 import { Mail, MapPin, Phone } from "lucide-react"
 
 import type React from "react"
+import emailjs from 'emailjs-com'
 import { useState } from "react"
 
 export default function Contact() {
@@ -20,25 +21,63 @@ export default function Contact() {
     setFormData((prev) => ({ ...prev, [name]: value }))
   }
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // In a real application, you would send the form data to your server or a form service
-    console.log("Form submitted:", formData)
+  // const handleSubmit = (e: React.FormEvent) => {
+  //   e.preventDefault()
+  //   // In a real application, you would send the form data to your server or a form service
+  //   console.log("Form submitted:", formData)
 
-    // Simulate form submission
-    setTimeout(() => {
-      setFormStatus("success")
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        message: "",
-      })
+  //   // Simulate form submission
+  //   setTimeout(() => {
+  //     setFormStatus("success")
+  //     setFormData({
+  //       name: "",
+  //       email: "",
+  //       phone: "",
+  //       message: "",
+  //     })
 
-      // Reset form status after 5 seconds
-      setTimeout(() => setFormStatus(null), 5000)
-    }, 1000)
-  }
+  //     // Reset form status after 5 seconds
+  //     setTimeout(() => setFormStatus(null), 5000)
+  //   }, 1000)
+  // }
+
+
+
+const handleSubmit = (e: React.FormEvent) => {
+  e.preventDefault()
+
+  // In a real application, you would send the form data to your server or a form service
+  console.log("Form submitted:", formData)
+
+  // Call EmailJS to send the email
+  emailjs
+    .send(
+      'service_nq7qiet',      
+      'template_3u0e5fd',     
+      formData,             
+      'v15FOpzmUHC5_jhlK'        
+    )
+    .then(
+      (response: any) => {
+        console.log('Email sent successfully:', response)
+        setFormStatus("success")
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          message: "",
+        })
+
+        // Reset form status after 5 seconds
+        setTimeout(() => setFormStatus(null), 5000)
+      },
+      (error: any) => {
+        console.log('Failed to send email:', error)
+        setFormStatus("error")
+      }
+    )
+}
+
 
   return (
     <div id="contact" className="bg-white py-24 sm:py-32">
@@ -63,7 +102,8 @@ export default function Contact() {
                 <Phone className="h-6 w-6 text-primary" />
                 <div>
                   <p className="text-sm font-medium text-gray-900">Phone</p>
-                  <p className="mt-1 text-sm text-gray-600">+255</p>
+                  <p className="mt-1 text-sm text-gray-600"><a href="tel:+255758978448">+255 758 978 448</a></p>
+                  <p className="mt-1 text-sm text-gray-600"><a href="tel:+255657234317">+255 657 234 317</a></p>
                 </div>
               </div>
 
@@ -71,18 +111,18 @@ export default function Contact() {
                 <Mail className="h-6 w-6 text-primary" />
                 <div>
                   <p className="text-sm font-medium text-gray-900">Email</p>
-                  <p className="mt-1 text-sm text-gray-600">q.kimambo@example.com</p>
+                  <p className="mt-1 text-sm text-gray-600"> <a href="mailto:queenkimambo20@gmail.com">queenkimambo20@gmail.com</a></p>
                 </div>
               </div>
 
               <div className="flex items-center gap-x-4">
                 <MapPin className="h-6 w-6 text-primary" />
                 <div>
-                  <p className="text-sm font-medium text-gray-900">Office</p>
+                  <p className="text-sm font-medium text-gray-900">Address</p>
                   <p className="mt-1 text-sm text-gray-600">
-                    123 Mbezi Beach
+                  P.O.Box 70002
                     <br />
-                    Kinondoni
+                    Dar es Salaam
                   </p>
                 </div>
               </div>
@@ -91,9 +131,7 @@ export default function Contact() {
             <div className="mt-8">
               <h4 className="text-base font-medium text-gray-900">Office Hours</h4>
               <div className="mt-2 space-y-1 text-sm text-gray-600">
-                <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
-                <p>Saturday: By appointment only</p>
-                <p>Sunday: Closed</p>
+                <p>Monday - Friday: By appointment only</p>
               </div>
             </div>
           </div>
