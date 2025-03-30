@@ -1,4 +1,4 @@
-import { Calculator, FileSpreadsheet, TrendingUp, Landmark, Receipt, FileCheck } from "lucide-react"
+import { Calculator, FileCheck, FileSpreadsheet, Landmark, Receipt, TrendingUp } from "lucide-react"
 
 const services = [
   {
@@ -47,7 +47,7 @@ export default function Services() {
             Comprehensive Accounting Services
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            We offer a wide range of accounting and financial services to meet your personal and business needs.
+            I offer a wide range of accounting and financial services to meet your personal and business needs.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

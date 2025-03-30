@@ -64,7 +64,7 @@ const testimonials = [
     title: "Peace of mind for retirement",
     content:
       "Queen helped us create a comprehensive retirement plan that gave us confidence in our financial future. Her personalized approach made all the difference.",
-    author: "John Mwenula & Lisa Kadigi",
+    author: "John Mushi & Lisa Kadigi",
     role: "Retired Couple in Moshi",
   },
 ]

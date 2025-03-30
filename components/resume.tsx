@@ -12,7 +12,7 @@ export default function Resume() {
             Professional Experience & Qualifications
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-          A <b className="text-primary">Certified Public Accountant (T)</b> with over 6 years of experience in finance and accounting, I have helped a diverse range of organizations, from NGOs to private companies, optimize financial operations and maintain compliance with industry standards.
+          As a <b className="text-primary">Certified Public Accountant (T)</b>; I have helped a diverse range of organizations, from NGOs to private companies, optimize financial operations and maintain compliance with industry standards.
           </p>
           <div className="mt-8 flex justify-center">
             <Link
@@ -138,7 +138,7 @@ export default function Resume() {
                     <li>Preparation of management report and follow-up on previous audit findings</li>
                     </ul>
                     <p className="text-gray-700 mb-4 mt-4">
-                      Performed the above roles for  <b>over thirty (30) Non-Governmental Organizations</b>, such as ICAP, Women Fund, TGNP, T-Marc, HACOCA, IRC, NRC, Femina Hip, TAWLA, and UNICEF,<b> over twenty (20) companies</b> such as Plasco Limited, K-Finance Limited, Afya Microfinance, TAHA Fresh Limited, Laiki Technology, and Tujijenge Microfinance, and over 7 government offices such as LATRA, NIMR, Tanzania Postal Corporation, and Tanzania Atomic Energy Commission (TAEC).
+                      Performed the above roles for over <b> 30 </b>Non-Governmental Organizations, <b>20</b> private companies, and <b>7</b> government offices.
                     </p>
                     <p className="text-gray-700">
                       Performed other roles under the advisory department such as company registration, change of company particulars, application and renewal of business licenses, and company wind-up.
@@ -169,7 +169,7 @@ export default function Resume() {
               <div className="border-l-2 border-gray-200 pl-6 space-y-4">
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900">Certified Public Accountant (CPA)</h4>
-                  <p className="text-gray-600">Licensed in Tanzani since 2024</p>
+                  <p className="text-gray-600">Licensed in Tanzania since 2024</p>
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900">Computer Skills</h4>

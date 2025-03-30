@@ -20,8 +20,8 @@ export default function About() {
               <h2 className="text-base font-semibold leading-7 text-primary">About Me</h2>
               <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Queen Kimambo, CPA</p>
               <p className="mt-6 text-lg leading-8 text-gray-600">
-                With over 6 years of experience in accounting and financial services, I provide personalized solutions
-                to help individuals and businesses achieve their financial goals.
+              Expert financial solutions, delivered with precision and a personal touch. No bureaucracy, just agile, tailored services that evolve with your needs—driving results you can trust.
+
               </p>
               <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
                 {features.map((feature) => (
@@ -34,7 +34,7 @@ export default function About() {
                 ))}
               </dl>
               <p className="mt-8 text-gray-600">
-              Expert financial solutions, delivered with precision and a personal touch. No bureaucracy, just agile, tailored services that evolve with your needs—driving results you can trust.
+              {/* Expert financial solutions, delivered with precision and a personal touch. No bureaucracy, just agile, tailored services that evolve with your needs—driving results you can trust. */}
               </p>
             </div>
           </div>
