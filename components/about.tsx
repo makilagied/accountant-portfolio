@@ -40,7 +40,7 @@ export default function About() {
           </div>
           <div className="relative">
             <Image
-              src="/placeholder.jpg?height=600&width=800"
+              src="/queen.png?height=600&width=800"
               alt="Professional accountant portrait"
               className="w-full rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
               width={800}

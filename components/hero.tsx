@@ -11,8 +11,7 @@ export default function Hero() {
           <h1 className="max-w-lg text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Queen Kimambo</h1>
           <p className="mt-2 text-2xl font-semibold text-primary">Certified Public Accountant (T)</p>
           <p className="mt-6 text-lg text-justify leading-8 text-gray-600">
-          I am a results-driven finance professional with expertise in preparing comprehensive financial reports, performing detailed reconciliations, and ensuring strict compliance with tax regulations and IFRS standards. Skilled in maintaining fixed asset registers, overseeing internal controls, managing audits, and optimizing financial operations to enhance accuracy, transparency, and efficiency. Proven ability to support strategic decision-making through precise analysis and adherence to best practices in financial management.
-          </p>
+          I am a results-driven finance professional with <b>5+ years of experience in audit and review of financial statements</b> , and expertise in preparing comprehensive financial reports, performing detailed reconciliations, and ensuring strict compliance with tax regulations and IFRS standards. Skilled in maintaining fixed asset registers, overseeing internal controls, managing audits, and optimizing financial operations to enhance accuracy, transparency, and efficiency. Proven ability to support strategic decision-making through precise analysis and adherence to best practices in financial management.          </p>
           <div className="mt-10 flex items-center gap-x-6">
             <Link
               href="#contact"
@@ -28,7 +27,7 @@ export default function Hero() {
         <div className="mt-16 sm:mt-24 lg:mt-0 lg:flex-shrink-0 lg:flex-grow">
           <div className="relative mx-auto w-[22.875rem] max-w-full">
             <Image
-              src="/placeholder.jpg?height=600&width=500"
+              src="/queen.webp?height=600&width=500"
               alt="Queen Kimambo, CPA"
               width={500}
               height={600}

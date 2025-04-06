@@ -18,23 +18,23 @@ const services = [
     description: "Strategic financial planning to help you achieve your short and long-term financial goals.",
     icon: TrendingUp,
   },
-  {
-    name: "Business Consulting",
-    description:
-      "Expert advice on financial strategies, business structure, and growth opportunities for your business.",
-    icon: Calculator,
-  },
-  {
-    name: "Payroll Services",
-    description: "Comprehensive payroll processing, tax filing, and compliance services for businesses of all sizes.",
-    icon: Receipt,
-  },
-  {
-    name: "Retirement Planning",
-    description:
-      "Personalized retirement planning strategies to ensure financial security during your retirement years.",
-    icon: Landmark,
-  },
+  // {
+  //   name: "Business Consulting",
+  //   description:
+  //     "Expert advice on financial strategies, business structure, and growth opportunities for your business.",
+  //   icon: Calculator,
+  // },
+  // {
+  //   name: "Payroll Services",
+  //   description: "Comprehensive payroll processing, tax filing, and compliance services for businesses of all sizes.",
+  //   icon: Receipt,
+  // },
+  // {
+  //   name: "Retirement Planning",
+  //   description:
+  //     "Personalized retirement planning strategies to ensure financial security during your retirement years.",
+  //   icon: Landmark,
+  // },
 ]
 
 export default function Services() {

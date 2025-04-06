@@ -49,14 +49,14 @@ const testimonials = [
   {
     title: "Transformed our business finances",
     content:
-      "Sarah has been instrumental in organizing our business finances and implementing efficient accounting systems. Her expertise has saved us both time and money.",
+      "Queen has been instrumental in organizing our business finances and implementing efficient accounting systems. Her expertise has saved us both time and money.",
     author: "Michael Kigi",
     role: "Small Business Owner at Kariakoo DSM",
   },
   {
     title: "Expert tax guidance",
     content:
-      "I've been working with Sarah for my personal and business taxes for over 5 years. Her knowledge of tax law and attention to detail have consistently maximized my returns.",
+      "I've been working with Queen for my personal and business taxes for over 5 years. Her knowledge of tax law and attention to detail have consistently maximized my returns.",
     author: "Jennifer Munisi",
     role: "Entrepreneur at Tegeta DSM",
   },

@@ -12,7 +12,8 @@ export default function Resume() {
             Professional Experience & Qualifications
           </p>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-          As a <b className="text-primary">Certified Public Accountant (T)</b>; I have helped a diverse range of organizations, from NGOs to private companies, optimize financial operations and maintain compliance with industry standards.
+          {/* As a <b className="text-primary">Certified Public Accountant (T)</b>;  */}
+          I have helped a diverse range of organizations, from NGOs to private companies, optimize financial operations and maintain compliance with industry standards.
           </p>
           <div className="mt-8 flex justify-center">
             <Link
@@ -164,14 +165,14 @@ export default function Resume() {
             <div>
               <div className="flex items-center gap-3 mb-6">
                 <Award className="h-6 w-6 text-primary" />
-                <h3 className="text-xl font-bold text-gray-900">Certifications & Soft Skills</h3>
+                <h3 className="text-xl font-bold text-gray-900">Certifications</h3>
               </div>
               <div className="border-l-2 border-gray-200 pl-6 space-y-4">
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900">Certified Public Accountant (CPA)</h4>
                   <p className="text-gray-600">Licensed in Tanzania since 2024</p>
                 </div>
-                <div>
+                {/* <div>
                   <h4 className="text-lg font-semibold text-gray-900">Computer Skills</h4>
                   <p className="text-gray-600"> I have knowledge in Microsoft Office programs including Microsoft word,
                   Microsoft Power Point and Microsoft Excel; Endnote and SPSS statistics Program. Working and using software tools like Zoom, Google and Teams </p>
@@ -188,7 +189,7 @@ export default function Resume() {
                   Team Player, Leadership skills, Emotional Intelligence skills,
                   Integrity, confidentiality, strong communication skills, ability to work under pressure, and proactive.
                   </p>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -205,9 +206,16 @@ export default function Resume() {
                     <li>Tax Preparation & Planning</li>
                     <li>Financial Statement Analysis</li>
                     <li>Bookkeeping & Accounting</li>
-                    <li>Retirement Planning</li>
                     <li>Personal Financing</li>
-                    <li>Business Advisory</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h4 className="font-semibold text-gray-900 mb-2">Soft Skills</h4>
+                  <ul className="text-gray-600 list-disc list-inside space-y-1">
+                    <li>Computer Applications. i.e. Microsoft Office, Endnote and SPSS statistics Program</li>
+                    <li>Possessing a valid driving license.</li>
+                    <li>Interpersonal Skills and character</li>
+                    {/* <li>Personal Financing</li> */}
                   </ul>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">

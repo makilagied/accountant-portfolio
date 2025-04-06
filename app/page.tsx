@@ -1,17 +1,17 @@
-import Hero from "@/components/hero"
-import Services from "@/components/services"
 import About from "@/components/about"
-import Resume from "@/components/resume"
-import Testimonials from "@/components/testimonials"
-import Contact from "@/components/contact"
 import CTA from "@/components/cta"
+import Contact from "@/components/contact"
+import Hero from "@/components/hero"
+import Resume from "@/components/resume"
+import Services from "@/components/services"
+import Testimonials from "@/components/testimonials"
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       <Hero />
       <Services />
-      <About />
+      {/* <About /> */}
       <Resume />
       <Testimonials />
       <CTA />
